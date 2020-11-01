@@ -1,0 +1,17 @@
+[package]
+name = "serde_b"
+version = "0.1.0"
+authors = ["Kiron <kiron1@gmail.com>"]
+license = "MIT"
+description = "A bencoding serialization file format"
+repository = "https://github.com/kiron1/serde_b"
+keywords = ["bencoding", "serde", "serialization"]
+categories = ["encoding"]
+readme = "README.md"
+include = ["src/**/*.rs", "README.md", "LICENSE.txt"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
